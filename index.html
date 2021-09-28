@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <link href="decor.css" rel="stylesheet"/>
+    <title>Задание 2</title>
+  </head>
+
+  <body>
+  <header id="header">
+  <p>
+      <img src="https://urokangl.ru/wp-content/uploads/2019/01/england-flag.jpg" alt="logo" id="logo" width="400" height="276" alt="flag of england"></li>>
+	  
+      England
+  </p>
+  </header>
+  <nav class="navigation">
+      <ul>
+          <li><a href="#links">Гиперссылки</a></li>
+          <li><a href="#table">Таблица</a></li>
+          <li><a href="#form">Форма</a></li>
+      </ul>
+  </nav>
+  <main><ol>
+    <div id="links">
+<li><a href=http://example.com id="123">Example</a></li>
+<li><a href=https://example.com id="234">Example</a></li>
+<li><a href=ftp://example.com/news.zip>Ссылка на файл без авторизации</a></li>
+<li><a href=ftp://user:password@example.com/myfile.zip>Ссылка на файл с авторизацией</a></li>
+<li><a href="http://google.com#top">ссылку на фрагмент страницы некоторого сайта</a></li>
+<li><a href="#123">Фрагмент страницы</p></li>
+<li><a href="https://carshop.com/?mark=toyota&model=camry">Ссылка с двумя параметрами в URL </a></li>
+<li>Навигация</h4>
+    <ul>
+        <li><a href="#123">1</a></li>
+	<li><a href="#234">2</a></li>
+    </ul>
+</li>
+<li><a>ссылку без href</a></li>
+<li><a href="">ссылку с пустым href</a></li>
+<li><a href="https://example.com" rel="nofollow">ссылку, по которой запрещен переход поисковикам </a></li>
+<li><a href="http://example.ru" content="noindex">запрещенную для индексации поисковиками</a></li>
+<li><a href="https://en.wikipedia.org/wiki/System_of_a_Down" title=source>System of a Down </a>
+is an Armenian-American heavy metal band formed in Glendale, California, in 1994. 
+It currently consists of members Serj Tankian (lead vocals, keyboards), Daron Malakian 
+(guitar, vocals), Shavo Odadjian (bass, backing vocals), and John Dolmayan (drums).</li>
+<li><img src="https://www.yaconic.com/wp-content/uploads/2020/11/494918-1536x864.jpg"
+width="400" height="276" alt="System of a down"></li>
+<li><img src="https://motorltd.ru/wp-content/uploads/2020/08/foto-camry-2019_01.jpg" width="800" height="800" alt="Toyota Camry" usemap="#navigation" id="CAR">
+            <map name="navigation">
+                <area shape="circle" coords="500,500,220" href="https://www.toyota.com/" alt="Toyota">
+                <area shape="rect" coords="0,0,240,240" href="https://en.wikipedia.org/wiki/Toyota_Camry" alt="Camry">
+            </map></li>
+<li><a href="./123.html">относительную на страницу в текущем каталоге </a></li>
+<li><a href="./about/234.html">относительную на страницу в каталоге about</a></li>
+<li><a href="../345.html">относительную на страницу в каталоге уровнем выше текущего</a></li>
+<li><a href="../../456.html">относительную на страницу в каталоге двумя уровнями выше</a></li>
+<li><a href="/">сокращенную на главную</a></li>
+<li><a href="/567.html">сокращенную ссылку на внутреннюю.</a></li></ol>
+</div>
+    <div id="mark">
+    <div id="table">
+        <h2>Таблица</h2>
+        <table>
+            <tbody>
+            <tr>
+                <th class="header_table" colspan="4">Заголовок таблицы</th>
+            </tr>
+            <tr>
+                <td>Ячейка 11</td>
+                <td>Ячейка 12</td>
+                <td>Ячейка 13</td>
+                <td>Ячейка 14</td>
+            </tr>
+            <tr class="even">
+                <td>Ячейка 21</td>
+                <td>Ячейка 22</td>
+                <td rowspan="2" class="union">Объединенная 23 и 33</td>
+                <td>Ячейка 24</td>
+            </tr>
+            <tr>
+                <td>Ячейка 31</td>
+                <td>Ячейка 32</td>
+                <td>Ячейка 34</td>
+            </tr>
+            <tr class="even">
+                <td>Ячейка 41</td>
+                <td colspan="2" class="union">Объединенная 42 и 43</td>
+                <td>Ячейка 44</td>
+            </tr>
+            <tr>
+                <td>Ячейка 51</td>
+                <td>Ячейка 52</td>
+                <td>Ячейка 53</td>
+                <td>Ячейка 54</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+	<form id = "form">
+
+      <h1 style="text-align: center" id="forma">Форма HTML</h1>
+      <label>
+        Имя:<br />
+        <input name="field-name-1"
+          value="" />
+      </label><br />
+
+      <label>
+        E-mail:<br />
+        <input name="field-email"
+          value="test@example.com"
+          type="email" />
+      </label><br />
+
+      <label>
+        Дата рождения:<br />
+        <input name="field-date"
+          value="2000-01-01"
+          type="date" />
+      </label><br />
+
+	Пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        Мужской</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Женский</label><br />
+
+	Количество конечностей:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        1</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        2</label>
+      <label><input type="radio" 
+        name="radio-group-1" value="Значение3" />
+        3</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение4" />
+        4</label><br />
+
+      <label>
+        Сверхспособности:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1">Бессмертие</option>
+          <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+          <option value="Значение3" selected="selected">Левитация</option>
+        </select>
+      </label><br />
+
+      <label>
+        Биография:<br />
+        <textarea name="field-name-2">начальное значение</textarea>
+      </label><br />
+
+      Чекбокс:<br />
+      <label><input type="checkbox" checked="checked"
+        name="check-1" />
+        С контрактом ознакомлен</label><br />
+
+      Отправка формы:
+      <input type="submit" value="Отправить" />
+    </form>
+    </main>
+	<footer>
+        (с) Егунов Дмитрий 2021
+    </footer>
+  </body>
+
+</html> 
